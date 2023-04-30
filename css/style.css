@@ -243,7 +243,7 @@ body {
     font-size: 16vmin;
   }
   .greeting {
-    font-size: 7vmin;
+    font-size: 6vmin;
   }
   #weather .temp {
     font-size: 5vmin;
@@ -253,6 +253,13 @@ body {
   }
   #weather .city {
     font-size: 3vmin;
+  }
+  #login-form input[type="text"] {
+    font-size: 4vmin;
+  }
+  #login-form input {
+    padding: 1rem;
+    font-size: 4.5vmin;
   }
   #quotes .quote {
     font-size: 3.7vmin;
