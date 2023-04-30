@@ -207,7 +207,7 @@ body {
 #todo-form input {
   margin-top: 2rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-  width: 80%;
+  width: 82%;
   background-color: transparent;
   font-size: 2vmin;
   color: #fff;
@@ -233,4 +233,38 @@ body {
   background-color: #fff;
   font-size: 1.2vmin;
   color: #000;
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin-top: 5vh;
+  }
+  .clock {
+    font-size: 16vmin;
+  }
+  .greeting {
+    font-size: 7vmin;
+  }
+  #weather .temp {
+    font-size: 5vmin;
+  }
+  #weather .main {
+    font-size: 3.3vmin;
+  }
+  #weather .city {
+    font-size: 3vmin;
+  }
+  #quotes .quote {
+    font-size: 3.7vmin;
+  }
+  #quotes .author {
+    font-size: 3vmin;
+  }
+  #todo-form legend {
+    font-size: 5vmin;
+  }
+  #todo-form input {
+    width: 100%;
+    font-size: 3.5vmin;
+  }
 }
